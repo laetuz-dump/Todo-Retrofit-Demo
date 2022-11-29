@@ -12,7 +12,7 @@ object RetrofitInstance {
         //Step 16: Use Retrofit.Builder
         Retrofit.Builder()
         //Step 17: Pass the base URL
-            .baseUrl("https://jsonplaceholder.typicode.com")
+            .baseUrl("https://drive.google.com")
         //Step 18: Add converter factory to convert JSON to GSON
             .addConverterFactory(GsonConverterFactory.create())
         //Step 19: We have finished constructing our API, finish up by commanding build.
